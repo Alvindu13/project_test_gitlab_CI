@@ -1,0 +1,20 @@
+image: java
+
+tags:
+  - iWOCS
+
+cache:
+  paths:
+    - .m2/
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2"
+
+tests_and_report:
+  stage: test
+  script: 
+    - "./mvnw $MAVEN_OPTS clean install -B"
+    - awk -F"," '{ instructions += $4 + $5; covered += $5 } END { print covered, "/", instructions, " instructions covered"; print 100*covered/instructions, "% covered" }' target/site/jacoco/jacoco.csv
+
+# Configure gitlab CI report RegExp with : 
+# \d+.\d+ \% covered
