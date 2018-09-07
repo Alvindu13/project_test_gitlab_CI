@@ -1,4 +1,5 @@
-# Projet *Standard* <small>(*Remplacer par numéro ou sujet du TP*)</small>
+# Projet *Standard* <small>(*Remplacer par numéro ou sujet du TP*)</small> [![pipeline status](https://www-apps.univ-lehavre.fr/forge/pigne/projet-standard/badges/master/pipeline.svg)](https://www-apps.univ-lehavre.fr/forge/pigne/projet-standard/commits/master) [![coverage report](https://www-apps.univ-lehavre.fr/forge/pigne/projet-standard/badges/master/coverage.svg)](https://www-apps.univ-lehavre.fr/forge/pigne/projet-standard/commits/master)
+
 
 - Année : **M1 iWOCS**
 - Matière: *matière*
