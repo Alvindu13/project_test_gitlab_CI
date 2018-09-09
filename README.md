@@ -1,5 +1,4 @@
-# Projet *Standard* <small>(*Remplacer par numéro ou sujet du TP*)</small> [![pipeline status](https://www-apps.univ-lehavre.fr/forge/pigne/projet-standard/badges/master/pipeline.svg)](https://www-apps.univ-lehavre.fr/forge/pigne/projet-standard/commits/master) [![coverage report](https://www-apps.univ-lehavre.fr/forge/pigne/projet-standard/badges/master/coverage.svg)](https://www-apps.univ-lehavre.fr/forge/pigne/projet-standard/commits/master)
-
+# Projet *Standard* <small>(*Remplacer par numéro ou sujet du TP*)</small>
 
 - Année : **M1 iWOCS**
 - Matière: *matière*
@@ -18,7 +17,9 @@
 - *Quels sont les fonctionnalités apportées par ce projet ?*
 - *A remplacer avec la description de votre projet.*
 
-Ce projet une une base pour la réalisation de TP et projets dans différentes matières en informatique.
+## Projet de base
+
+Ce projet est une base pour la réalisation de TP et projets dans différentes matières en informatique.
 
 Ses principales fonctionnalités sont :
 
@@ -37,9 +38,7 @@ En utilisant maven on peut compiler et exécuter les tests du projet.
 ./mvnw clean compile test
 ```
 
-
-
-
+---
 
 This template is based on the  [`junit5-jupiter-starter-maven`](https://github.com/junit-team/junit5-samples/tree/r5.3.0/junit5-jupiter-starter-maven) project demonstrator.
 
