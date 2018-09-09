@@ -1,8 +1,12 @@
 # Projet *Standard* <small>(*Remplacer par numéro ou sujet du TP*)</small>
 
+*Modifier le nom du projet dans le fichier d econfiguraiton `pom.xml` dans la section `<artifactId>`*
+
 - Année : **M1 iWOCS**
 - Matière: *matière*
 - TP : *numéro ou sujet du TP*
+
+
 
 ## Auteur(s)
 
