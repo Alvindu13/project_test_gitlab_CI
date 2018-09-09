@@ -4,13 +4,12 @@
 - Matière: *matière*
 - TP : *numéro ou sujet du TP*
 
-# Auteur(s)
+## Auteur(s)
 
 |Nom|Prénom|
 |--|--|
 *Nom 1er auteur* | *Prénom 1er auteur*|
 *Nom 2eme auteur* | *Prénom 2eme auteur*|
-
 
 ## User Story
 
@@ -28,7 +27,11 @@ Ses principales fonctionnalités sont :
 - Exécution des tests avec maven `./mvnw test`
 - Intégration continue avec GitLab (voir fichier `.gitlab-ci.yaml`)
 
-## Usage 
+## Configuration de la couverture des tests
+
+Pour obtenir les informations de couverture de code des tests dans la forge, il convient de configurer le champ "*Test Coverage parsing*" dans "*Settings*" -> "*CI/CD*" -> "*General pipelines*"  avec la valeur : `\d+.\d+ \% covered`
+
+## Utilisation
 
 *Comment utiliser ce projet ?*
 
