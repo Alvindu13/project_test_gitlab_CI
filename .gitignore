@@ -1,10 +1,12 @@
+# Maven
 target/
 
 # InteliJ IDEA
 .idea/
 *.iml
 
-#Eclipse
+# Eclipse
 .project
 .classpath
 .settings/
+bin/

@@ -1,6 +1,6 @@
-# Projet *Standard* <small>(*Remplacer par numéro ou sujet du TP*)</small>
+# Projet *Standard* <small>(*Remplacer par numéro ou sujet du TP*)</small> [![pipeline status](https://www-apps.univ-lehavre.fr/forge/pigne/projet-standard/badges/master/pipeline.svg)](https://www-apps.univ-lehavre.fr/forge/pigne/projet-standard/commits/master) [![coverage report](https://www-apps.univ-lehavre.fr/forge/pigne/projet-standard/badges/master/coverage.svg)](https://www-apps.univ-lehavre.fr/forge/pigne/projet-standard/commits/master)
 
-*Modifier le nom du projet dans le fichier d econfiguraiton `pom.xml` dans la section `<artifactId>`*
+*Modifier le nom du projet dans le fichier de configuraiton `pom.xml` dans la section `<artifactId>`*
 
 - Année : **M1 iWOCS**
 - Matière: *matière*
