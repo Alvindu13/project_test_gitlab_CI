@@ -1,0 +1,15 @@
+root = true
+
+# for all files
+[*]
+# Unix-style newlines with a newline ending every file
+end_of_line = lf
+insert_final_newline = true
+
+# unicode encodiing
+charset = utf-8
+
+# 4 space indentation with space
+[*.{js,py,java}]
+indent_style = tab
+indent_size = 4
