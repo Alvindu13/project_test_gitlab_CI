@@ -1,4 +1,4 @@
-package fr.univlehavre.projet;
+package fr.jeremie.projet;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -20,6 +20,7 @@ public class PointTest {
 		assertEquals(0, p.getY(), "y should be 0");
 	}
 
+	//add comment
 	@ParameterizedTest(name = "Parametrized constructor should accept point ({0},{1})")
 	@CsvSource({
         "0.0,	0.0",

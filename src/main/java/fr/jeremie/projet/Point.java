@@ -1,4 +1,4 @@
-package fr.univlehavre.projet;
+package fr.jeremie.projet;
 
 /**
  * Classe Point. Cartesian space. Finite real coordinates.
